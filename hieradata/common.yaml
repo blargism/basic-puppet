@@ -1,7 +1,10 @@
 ---
 classes:
- - 'profile::base'
+  - "profile::base"
 
 ntp::servers:
   - 0.us.pool.ntp.org
   - 1.us.pool.ntp.org
+
+r10k::webhook::user: "puppet"
+r10k::webhook::password: "6VSwr6aIiy6m"
