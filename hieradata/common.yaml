@@ -1,5 +1,5 @@
 ---
-:classes:
+classes:
   - "profile::base"
 
 ntp::servers:

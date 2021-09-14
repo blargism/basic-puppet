@@ -1,0 +1,13 @@
+---
+version: 5 # Required in Hiera 5
+
+defaults: # Used for any hierarchy level that omits the below keys.
+  datadir: hieradata # The path, relative to the hiera.yaml"s directory, to use for lookups
+  data_hash: yaml_data # Use the YAML backend if no other backend is specified.
+
+hierarchy:
+  - name: "Per-node data" # Human readable name
+    path: "nodes/%{trusted.certname}.yaml" # File path, relative to datadir. File extension is required!
+
+  - name: "Common Data"
+    path: "common.yaml"
