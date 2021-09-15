@@ -4,10 +4,5 @@ class profile::r10k_webhook {
   class { '::redis':
     bind => '127.0.0.1',
   }
-
-  class { 'puppetwebhook':
-    protected => true,
-    user      => 'puppet',
-    pass      => '28JXlsweZ0UI',
-  }
+  include puppetwebhook
 }
