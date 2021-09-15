@@ -1,6 +1,4 @@
 class profile::r10k_config {
-  include r10k::mcollective
-
   package { 'git':
     ensure => installed,
   }
