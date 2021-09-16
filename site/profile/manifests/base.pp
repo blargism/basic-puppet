@@ -1,3 +1,5 @@
 class profile::base {
-  class { '::ntp': }
+  package { 'htop':
+    ensure => present
+  }
 }

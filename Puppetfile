@@ -1,8 +1,5 @@
 forge 'forge.puppetlabs.com'
 
-# Forge Modules
-mod 'puppetlabs/ntp', '9.1.0'
-
 # r10k and deps
 mod 'puppetlabs/stdlib', '8.0.0'
 mod 'puppetlabs/inifile', '5.2.0'
