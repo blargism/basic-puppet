@@ -1,6 +1,6 @@
 hiera_include('classes')
 
-node dave-client.coalescent.technology {
+node 'dave-client.coalescent.technology' {
   include role::linux_client
 }
 
