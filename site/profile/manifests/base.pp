@@ -1,5 +1,5 @@
 class profile::base {
-  package { 'htop':
+  package { 'top':
     ensure => present
   }
 }
