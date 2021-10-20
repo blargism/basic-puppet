@@ -1,4 +1,12 @@
 ---
 classes:
   - "profile::base"
-  - "role::linux_client"
+
+ntp::servers:
+  - 0.us.pool.ntp.org
+  - 1.us.pool.ntp.org
+
+puppetwebhook::app_cfg:
+  protected: true
+  user: puppet
+  pass: 6VSwr6aIiy6m

@@ -1,3 +1,3 @@
-class role::linux_client {
+class role::linuxclient {
   include profile::base
 }
