@@ -1,5 +1,9 @@
 class profile::base {
-  package { 'top':
+  package { 'less':
+    ensure => present
+  }
+
+  package { 'vim':
     ensure => present
   }
 }
