@@ -6,4 +6,8 @@ class profile::base {
   package { 'vim':
     ensure => present
   }
+
+  package { 'git':
+    ensure => present
+  }
 }
