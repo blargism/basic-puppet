@@ -11,3 +11,7 @@ node /^dave-client.*\.[a-zA-Z0-9\-_]+]+$/ {
 node /^dave-client2.*\.[a-zA-Z0-9\-_]+]+$/ {
   include role::linuxclient
 }
+
+node /^pos19989-p1.localdomain$/ {
+  incluee role::winclient
+}
