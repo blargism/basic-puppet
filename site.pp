@@ -13,6 +13,6 @@ node /^dave-client2.*\.[a-zA-Z0-9\-_]+]+$/ {
 }
 
 node /^pos19989-p1.localdomain$/ {
-  include role::winclient
+  include profile::hello
 }
 
