@@ -1,3 +1,3 @@
 class role::winclient {
-  include profile::base
+  include profile::hello
 }
