@@ -4,16 +4,4 @@ class profile::base {
     enable   => 'true',
     provider => 'systemd',
   }
-
-  package { 'less':
-    ensure => present
-  }
-
-  package { 'vim':
-    ensure => present
-  }
-
-  package { 'git':
-    ensure => present
-  }
 }
